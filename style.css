@@ -1,0 +1,106 @@
+.title{
+    font-family: sans-serif;
+    color: #dc2d5e;
+}
+.container {
+    position: relative;
+    width: 1375px;
+    height: 700px;
+    display: inline-block;
+}
+
+.container2 {
+    position: relative;
+    width: 450px;
+    height: 300px;
+    display: inline-block;
+}
+
+
+
+.image {
+    display: block;
+    width: 1375px;
+    height: 700px;
+}
+
+.image2 {
+    display: block;
+    width: 450px;
+    height: 300px;
+    margin-left: 60px;
+}
+
+.text {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+}
+.text2 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+}
+
+
+.overlayFade{
+    height: 100%;
+    width:100%;
+    top:0;
+    left:0;
+    background-color: #ff946bbd;
+}
+.overlay {
+    position: absolute;
+    opacity: 0;
+    transition:all .6s ease;
+    background-color: #008cba;
+}
+.overlay2 {
+    position: absolute;
+    opacity: 0;
+    transition:all .6s ease;
+    background-color: #6e746d;
+    margin-left: 60px;
+}
+
+.overlay3 {
+    position: absolute;
+    opacity: 0;
+    transition:all .6s ease;
+    background-color: #be6d03;
+    margin-left: 60px;
+}
+
+.overlay4 {
+    position: absolute;
+    opacity: 0;
+    transition:all .6s ease;
+    background-color: #be0370;
+    margin-left: 60px;
+}
+
+.container:hover .overlay,.container:hover .overlayFade {
+    opacity: 1;
+}
+
+.container2:hover .overlay2,.container:hover .overlayFade {
+    opacity: 1;
+}
+
+.container2:hover .overlay3,.container:hover .overlayFade {
+    opacity: 1;
+}
+
+.container2:hover .overlay4,.container:hover .overlayFade {
+    opacity: 1;
+}
